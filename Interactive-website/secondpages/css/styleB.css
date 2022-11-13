@@ -1,0 +1,115 @@
+header, section, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+body {
+  color: #666
+  background-color: #3f5;
+  background-image: url("../../images/chalkboard.jpg");
+  font-family: "Walter Turncoat", cursive;
+  line-height: 1.4em;
+  margin: 0px;
+}
+.wrapper {
+  940px;
+  margin: 20px auto 20px auto;
+  border:2px solid #0000;
+  color: #fff;
+}
+img {
+max-width: 100%;
+}
+p {
+  color: #fff;
+}
+header {
+  height: 160px;
+  background-image: url(../../images/header.jpg);
+  width: 300%;
+  height: auto;
+  background-size: 300px;
+  object-fit: cover;
+  object-position: right;
+  background-repeat: no-repeat;
+  background-color: #207c00;
+}
+
+h1 {
+  text-indent: -9999px;
+  width: 940px;
+  height: 130px;
+  margin: 0px;
+}
+nav,footer {
+  clear: both;
+  color: #fff;
+  background-color: #aeac8;
+  height: 30px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 40px
+}
+nav li a {
+  color: #1b1b1b;
+}
+nav li a:hover, nav li a.current {
+  color: #11ff00;
+  transition-delay: 1s;
+  -webkit-transition: .5s all;   
+  -webkit-transition-delay: 5s; 
+  -moz-transition: .5s all;   
+  -moz-transition-delay: 5s; 
+  -ms-transition: .5s all;   
+  -ms-transition-delay: 5s; 
+  -o-transition: .5s all;   
+  -o-transition-delay: 5s; 
+  transition: .5s all;   
+}
+
+section.courses li a:hover, section.courses li a.current {
+  color: #11ff00;
+  transition-delay: 1s;
+  -webkit-transition: .5s all;   
+  -webkit-transition-delay: 5s; 
+  -moz-transition: .5s all;   
+  -moz-transition-delay: 5s; 
+  -ms-transition: .5s all;   
+  -ms-transition-delay: 5s; 
+  -o-transition: .5s all;   
+  -o-transition-delay: 5s; 
+  transition: .5s all;   
+}
+
+section.courses {
+  float: left;
+  width: 659px;
+  border-right: 1px solid #1b1b1b1;
+  width: 100%;
+}
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+hgroup {
+  margin-top: 40px;
+}
+figure {
+  float: left;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+figcaption {
+  font-size: 90%
+  text-align: left;
+}
